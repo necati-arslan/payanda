@@ -1,0 +1,127 @@
+body,html{
+  background-color: black;
+}
+.container{
+    height: 100%;
+    margin-top: 10px;
+    margin:15px; 
+    
+}
+@media screen and (max-width: 599px) {
+    .container{
+        height: 100%;
+        margin: 2px;
+    }
+    .card-img {
+        width: 80px!important;
+        height:80px!important;
+        border-radius: 50%;
+        border: 2px solid green;
+        overflow: hidden;
+      }
+      button{
+          font-size: 13px;
+      }
+  }
+
+
+.card-img {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    border: 2px solid green;
+    overflow: hidden;
+  }
+
+   @media screen and (max-width: 758px) and (min-width: 600px){
+    .card-img {
+        width: 100px;
+        height:100px;
+        border-radius: 50%;
+        border: 2px solid green;
+        overflow: hidden;
+      }
+      .card-button{
+         -webkit-box-orient: vertical!important;
+         -webkit-box-direction: normal!important;
+             -ms-flex-direction: column!important;
+                 flex-direction: column!important;
+          -webkit-box-align: start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+          -ms-flex-line-pack: justify;
+              align-content: space-between;
+      }
+      .card-item{
+          margin-bottom: 2px;
+          margin-left: 1px;
+          width: 125px;
+          -ms-flex-item-align: end;
+              align-self: flex-end;
+      }
+  }
+
+.online{
+    text-align: center;
+    color:#49a010 ;
+    margin: 0;
+    padding: 0;
+}
+
+.info-T{
+    color: #05284B;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-button-online{
+    background-color: #49a010;
+    color:white;
+    height: 40px;
+    margin-right: 2px;  
+  }
+  .card-button-randevu{
+    background-color: #05284B;
+    color:white;
+    height: 40px;    
+  }
+
+ .card-divider{ 
+        border: 0;
+        height: 1px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  .border{
+      border: 1px solid black;
+  }
+
+h3.explain{
+    text-align:center;  
+    font-weight: 200;
+    color:#4d4d4d; 
+  }
+  button.match{
+      background-color: #49a010 ;
+  }
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .is-success{
+    border:1px solid green;
+    background-color: green;
+}
+.is-warning{
+    border:1px solid black;
+    background-color: black;
+} 
+.is-danger{
+    border:1px solid red;
+    background-color: red;
+}
+
+ 
